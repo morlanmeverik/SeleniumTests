@@ -19,6 +19,6 @@ exp_title = "OrangeHRM"
 if actual_title == exp_title:
     print("test passed successfully")
 else:
-    print("test failed")
+    print("test failed easily")
 
 #driver.close()
