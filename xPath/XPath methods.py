@@ -15,6 +15,7 @@ driver.maximize_window()
 # (driver
 #  .find_element(By.XPATH, "//input[@id='search_query_top' or @name='search_query']")
 #  .send_keys("T-Shirts"))
+
 # AND
 # (driver
 #  .find_element(By.XPATH, "//button[@name='submit_search' and @class='btn btn-default button-search']")
@@ -28,8 +29,8 @@ driver.maximize_window()
 #  .find_element(By.XPATH,"//button[starts-with(@name,'submit')]")
 #  .click())
 
-# text()
 
+# text()
 driver.find_element(By.XPATH, "//a[text()='Women']").click()
 
 
